@@ -1,0 +1,126 @@
+/**Presets**/
+*{
+	margin:0;
+	padding: 0;
+}
+
+html,body{
+	font-family: calibri;/**defines the font family**/
+	font-size:16px;/**specifies the font-size**/
+	color: #696663;/**defines the text colors**/
+	background-color: #f9f2ec;/**body backgroundcolor**/
+}
+
+.wrapper{
+	width:1100px;
+	margin:0px auto;
+	background-color: #fff;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 15px;
+	transition: 0.7s linear;
+}
+
+nav{
+	background-color: #c88851;
+	margin-top: -3px;
+}
+
+nav ul li a{
+	color: #fff;
+	
+
+nav ul li.active{
+	background-color: #744a25;
+}text-decoration: none;
+}
+nav ul li:hover{
+	background-color: #9b6231;
+	cursor: pointer;  
+}
+
+.leftContent h3{
+	background-color: #c88851;
+	color:#fff;
+	padding: 10px;
+}
+
+.leftContent{
+	width:400px;
+	float:left;
+	clear: both;
+}
+
+.rightContent{
+	width: 650px;
+	float:right;
+}
+
+.mainContent{
+	overflow: auto;
+}
+
+.quickLinks li{
+	list-style-type: none;
+	transition: 0.7s linear;
+}
+
+.quickLinks li a{
+	text-decoration: none;
+	line-height: 40px;
+	color: #696663;
+	padding-left: 10px;
+}
+.quickLinks li:hover{
+	background-color: #eae9e8;
+}
+.rightContent h2{
+	color:#c88851;
+}
+
+footer{
+	background-color: #dfbf9f;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+form{
+	padding: 20px;
+}
+
+input[type="text"], 
+input[type="email"],
+input[type="date"],
+input[type="number"],
+textarea,
+select{
+	width: 97%;
+	padding: 13px;
+}
+
+label{
+	color: #c88851;
+	font-weight: bold;
+}
+
+input[type="submit"],
+input[type="reset"]{
+	padding: 13px;
+	color: #fff;
+	background-color: #c88851;
+	border-color: #c88851;
+}
+
+.error{
+	color: red;
+	margin-left: 10px;
+	display: none;
+}
+.rightContent ul li{
+	text-decoration: none;
+}
+
+}

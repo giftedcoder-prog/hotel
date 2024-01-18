@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learn JS</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+	<style type="text/css">
+		i{
+			font-size: 460px;
+			cursor: pointer;
+			color: gray;
+		}
+
+		.error{
+			display: none;
+			color: red;
+		}
+
+
+	</style>
+
+	<script type="text/javascript">
+		//alert("Hello, i am learning js");
+		//document.write("Hello am learning js");
+	</script>
+</head>
+<body>
+	<center>
+	<i  id="bulb"></i><br><br>
+
+	<button type="button" onclick="yellowLight()">Show bulb</button>&nbsp<button type="button" onclick="blueLight()">Show user</button>&nbsp<button type="button" onclick="greenLight()">Show car</button>
+	</center>
+
+	<!--form-->
+			<fieldset>
+				<legend>Contact us</legend>
+				<form method="POST" action="#">
+					<label>Full names</label><strong class="error nameError">&nbsp Invalid names</strong><br>
+					<input type="text" name="fullNames" class="fullNames"><br>
+
+					<label>Email address</label><strong class="error emailError">&nbsp Invalid email</strong><br>
+					<input type="email" name="email" class="email"><br>
+
+					<label>Contact</label><br>
+					<input type="number" name="contact"><br>
+
+					<label>Message</label><br>
+					<textarea name="message"></textarea><br>
+
+					<label>Date</label><br>
+					<input type="date" name="date"><br>
+
+					<label>Location</label><br>
+					<select name="location">
+						<option>Kenya</option>
+						<option>Tanzania</option>
+						<option>Uganda</option>
+					</select>
+					<br><br>
+
+					<input type="submit" name="submit" value="Send data">&nbsp<input type="reset" name="reset" value="Reset">
+
+				</form>
+			</fieldset>
+			<!--form-->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/validate.js"></script>
+		<script type="text/javascript">
+		/**function yellowLight(){
+			document.getElementById('bulb').className="fas fa-lightbulb";
+		}
+
+		function blueLight(){
+			document.getElementById('bulb').className="fas fa-car";
+		}
+
+		function greenLight(){
+			document.getElementById('bulb').className="fas fa-user";
+		}**/
+	</script>
+</body>
+</html>
